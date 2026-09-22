@@ -1,0 +1,38 @@
+oracle user, password : oracle
+grid user, password : oracle
+oramad user, passoword : oracle
+
+
+mkdir -p /u01/app/grid
+mkdir -p /u01/app/26ai/gridHome01
+mkdir -p /u01/app/oracle
+mkdir -p /u01/app/oracle/product/26ai/dbHome01
+mkdir -p /u01/app/oraInventory
+
+chown grid:oinstall /u01
+chown grid:oinstall /u01/app/grid
+chown grid:oinstall /u01/app/26ai/gridHome01
+chown grid:oinstall /u01/app/oracle
+chown grid:oinstall /u01/app/oracle/product/26ai/dbHome01
+chown grid:oinstall /u01/app/oraInventory
+chown 775 /u01
+chown 775 /u01/app/grid
+chown 775 /u01/app/26ai/gridHome01
+chown 775 /u01/app/oracle
+chown 775 /u01/app/oracle/product/26ai/dbHome01
+chown 775 /u01/app/oraInventory
+
+-- THE COMMANDS BELOW I USE TO CREATE THE FILES - PERMISSIONS
+
+chown -R grid:oinstall /u01
+chown -R grid:oinstall /u01/app/grid
+chown -R grid:oinstall /u01/app/26ai/gridHome01
+chown -R grid:oinstall /u01/app/oracle
+chown -R grid:oinstall /u01/app/oracle/product/26ai/dbHome01
+chown -R grid:oinstall /u01/app/oraInventory
+chown -R 775 /u01
+chown -R 775 /u01/app/grid
+chown -R 775 /u01/app/26ai/gridHome01
+chown -R 775 /u01/app/oracle
+chown -R 775 /u01/app/oracle/product/26ai/dbHome01
+chown -R 775 /u01/app/oraInventory
