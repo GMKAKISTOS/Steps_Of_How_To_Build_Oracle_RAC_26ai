@@ -166,10 +166,4 @@ Always check the official Oracle documentation before using the configuration in
 
 ## Author
 
-**GMKAKISTOS**
-
----
-
-## Repository
-
-[Oracle RAC 26ai Project](https://github.com/GMKAKISTOS/Steps_Of_How_To_Build_Oracle_RAC_26ai)
+**Panagiotis Chronopoulos**
