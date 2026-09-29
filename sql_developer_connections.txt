@@ -1,0 +1,23 @@
+Name -> ora26ai
+
+Username -> sys, Role -> SYSDBA
+
+Password -> oracle
+
+Hostname -> 192.168.1.176
+
+Port -> 1521
+
+Service name -> ora26ai
+
+Test -> Save -> Connect
+
+SELECT banner FROM v$version;
+
+SELECT inst_id, name, database_role, open_mode, log_mode FROM gv$database ORDER BY 1;
+
+SELECT inst_id, instance_name, host_name, archiver, logins, blocked,
+to_char(startup_time, 'DD-MON-YYYY HH24:MI:SS') startup_time
+FROM gv$instance ORDER BY 1;
+
+SHOW pdbs;
